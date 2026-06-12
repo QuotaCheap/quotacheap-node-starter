@@ -1,0 +1,24 @@
+name: Bug report
+description: Report a starter/example bug
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+    validations:
+      required: true
+  - type: textarea
+    id: error
+    attributes:
+      label: Error message or status code
+  - type: markdown
+    attributes:
+      value: Do not include API keys, secrets, private account identifiers, or billing data.
