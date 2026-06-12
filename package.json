@@ -1,0 +1,1 @@
+{"name":"quotacheap-node-starter","version":"0.1.0","private":true,"type":"module","scripts":{"start":"node src/index.mjs","check":"node --check src/index.mjs"},"dependencies":{"dotenv":"^16.4.7","openai":"^4.104.0"},"devDependencies":{}}
